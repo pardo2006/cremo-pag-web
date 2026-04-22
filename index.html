@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cremo | Helados Artesanales</title>
+    <meta name="description" content="Cremo - Helados artesanales de la más alta calidad. Descubre la verdadera magia en cada cucharada.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Cremo Logo" class="logo-img" onerror="this.style.display='none'; document.getElementById('logo-text').style.display='block';">
+                <span id="logo-text" class="cursive-text" style="display:none;">Cremo</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="menu lluvia.pdf" target="_blank">Menú</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero">
+        <div class="hero-content hidden-reveal">
+            <h1 class="hero-title">El Arte del <span class="cursive-text gradient-text">Verdadero Sabor</span></h1>
+            <p class="hero-subtitle">Helados artesanales creados con pasión, ingredientes premium y un toque de magia en cada cucharada.</p>
+            <a href="menu.pdf" class="cta-button" target="_blank">Ver Menú</a>
+        </div>
+        <div class="hero-image-wrapper hidden-reveal">
+            <div class="glow-effect"></div>
+            <img src="logo.png" alt="Cremo Logo" class="hero-image floating-animation blob-shape">
+        </div>
+
+        <!-- Wave Separator -->
+        <div class="wave-container">
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#000000" fill-opacity="1" d="M0,224L60,213.3C120,203,240,181,360,181.3C480,181,600,203,720,213.3C840,224,960,224,1080,208C1200,192,1320,160,1380,144L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Features Section / Nosotros -->
+    <section id="nosotros" class="features">
+        <div class="section-header hidden-reveal">
+            <h2>Quiénes <span class="cursive-text gradient-text">Somos</span></h2>
+            <p class="subtitle-text">Orgullosamente una empresa de Armenia, Quindío.</p>
+        </div>
+
+        <div class="about-intro hidden-reveal">
+            <p><strong><span class="cursive-text" style="font-size: 1.8rem; color: var(--accent-pink);">Cremo</span></strong> es una empresa dedicada a la elaboración de helados artesanales con ingredientes naturales y sabores creativos.</p>
+            <p><strong>Objetivo General:</strong> Ofrecer helados artesanales de alta calidad, elaborados con ingredientes naturales y sabores innovadores, con el fin de satisfacer a los clientes y posicionar la marca Cremo en el mercado.</p>
+        </div>
+
+        <div class="mission-vision-grid hidden-reveal">
+            <div class="mv-card">
+                <h3>Nuestra <span class="cursive-text text-pink">Misión</span></h3>
+                <p>Ofrecer helados artesanales de alta calidad, elaborados con ingredientes naturales, brindando una experiencia única y satisfactoria a nuestros clientes.</p>
+            </div>
+            <div class="mv-card">
+                <h3>Visión <span class="cursive-text text-pink">2030</span></h3>
+                <ul class="vision-list">
+                    <li><strong>2030:</strong> Empresa reconocida a nivel regional</li>
+                    <li><strong>Innovación:</strong> Liderazgo en sabores creativos</li>
+                    <li><strong>Compromiso:</strong> Calidad y productos naturales</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section-header hidden-reveal" style="margin-top: 6rem;">
+            <h2>Nuestros <span class="cursive-text text-cream">Valores</span></h2>
+        </div>
+
+        <div class="features-grid hidden-reveal">
+            <div class="feature-card">
+                <h3>Calidad</h3>
+                <p>Estándares de excelencia en cada producto, ingredientes naturales y procesos artesanales.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Creatividad</h3>
+                <p>Sabores innovadores y únicos para una experiencia sensorial y memorable.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Responsabilidad</h3>
+                <p>Compromiso con clientes y comunidad.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Compromiso</h3>
+                <p>Dedicación total a la excelencia.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Trabajo en equipo</h3>
+                <p>Colaboración para lograr objetivos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flavors Gallery -->
+    <section id="sabores" class="gallery">
+        <div class="section-header hidden-reveal">
+            <h2>Sabores <span class="cursive-text gradient-text">Estrella</span></h2>
+            <p class="subtitle-text">Nuestras creaciones más aclamadas, hechas para deleitar.</p>
+        </div>
+        <div class="gallery-grid hidden-reveal">
+            <div class="flavor-card">
+                <div class="img-container">
+                    <img src="file:///C:/Users/opard/.gemini/antigravity/brain/8184c6c2-45e5-4d73-807f-5b1d526f0b02/flavor_strawberry_1776817120419.png" alt="Fresa Silvestre">
+                </div>
+                <div class="flavor-info">
+                    <h3>Fresa Silvestre</h3>
+                    <p>Fresas frescas locales con un toque de crema de vainilla.</p>
+                </div>
+            </div>
+            <div class="flavor-card">
+                <div class="img-container">
+                    <img src="file:///C:/Users/opard/.gemini/antigravity/brain/8184c6c2-45e5-4d73-807f-5b1d526f0b02/flavor_vanilla_1776817134963.png" alt="Vainilla y Caramelo">
+                </div>
+                <div class="flavor-info">
+                    <h3>Vainilla & Caramelo</h3>
+                    <p>Vainilla de Madagascar con hilos de caramelo artesanal.</p>
+                </div>
+            </div>
+            <div class="flavor-card more-flavors">
+                <div class="more-content">
+                    <h3 class="cursive-text">Y mucho más...</h3>
+                    <a href="https://wa.me/573227114640?text=Hola%20soy%20fan%20de%20cremo%2C%20deseo%20hacer%20una%20reserva" class="link-button" target="_blank">Consulta disponibilidad</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contacto" class="footer">
+        <div class="wave-container-footer">
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#000000" fill-opacity="1" d="M0,96L80,106.7C160,117,320,139,480,128C640,117,800,75,960,64C1120,53,1280,75,1360,85.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            </svg>
+        </div>
+        <div class="footer-content hidden-reveal">
+            <div class="brand-col">
+                <h2 class="footer-logo cursive-text gradient-text">Cremo</h2>
+                <p>Helados Artesanales de Calidad</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="https://wa.me/573227114640" target="_blank" class="social-icon">WhatsApp</a>
+                </div>
+            </div>
+            <div class="contact-col">
+                <h3>Encuéntranos</h3>
+                <p>Dirección: Armenia, Quindío</p>
+                <p>Tel: +57 322 711 4640</p>
+                <p>Email: hola@cremo.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cremo Helados Artesanales. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling & reveal animation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Reset scroll position on page refresh
+        if (history.scrollRestoration) {
+            history.scrollRestoration = 'manual';
+        }
+        window.onload = function() {
+            window.scrollTo(0, 0);
+        };
+
+        // Scroll reveal animation
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.15
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.hidden-reveal').forEach((el) => {
+            observer.observe(el);
+        });
+
+        // Add 3D hover effect to hero image
+        const heroWrapper = document.querySelector('.hero-image-wrapper');
+        const heroImg = document.querySelector('.hero-image');
+        
+        if (heroWrapper && heroImg) {
+            heroWrapper.addEventListener('mousemove', (e) => {
+                const rect = heroWrapper.getBoundingClientRect();
+                const x = (e.clientX - rect.left) / rect.width;
+                const y = (e.clientY - rect.top) / rect.height;
+                
+                // Tilt and scale up when hovered
+                heroImg.style.transform = `perspective(1000px) rotateY(${(x - 0.5) * 30}deg) rotateX(${(0.5 - y) * 30}deg) scale(1.15)`;
+                heroImg.style.transition = 'transform 0.1s ease-out';
+            });
+
+            heroWrapper.addEventListener('mouseleave', () => {
+                // Reset and allow floating animation to resume
+                heroImg.style.transform = 'perspective(1000px) rotateY(0deg) rotateX(0deg) scale(1)';
+                heroImg.style.transition = 'transform 0.5s ease-out';
+                setTimeout(() => {
+                    heroImg.style.transform = '';
+                }, 500);
+            });
+        }
+    </script>
+</body>
+</html>
